@@ -1,0 +1,197 @@
+*{
+            margin:0px;
+            padding: 0%;
+        }
+        .container{
+            height: 900px;
+            width: 100%;
+            
+        }
+        .logo{
+            background-color: rgb(47, 47, 229);
+            height: 90px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 20px;
+        }
+        .img2{
+            height: 30px;
+            width: auto;
+        }
+        input{
+            height: 35px;
+            width: 600px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            width: 70px;
+            margin-left:10px;
+        }
+        .login:hover{
+            background-color: white;
+            color: blue;
+            border-radius: 3px;
+        }
+        .a:hover{
+            background-color: white;
+            color: blue;
+            border-radius: 3px;
+        }
+        .cart:hover{
+            background-color: white;
+            color: blue;
+            border-radius: 3px;
+        }
+        .seller{
+            font-size: 20px;
+        }
+        .seller:hover{
+            background-color: white;
+            color: blue;
+            border-radius: 3px;
+            font-size: 10px;
+        }
+
+        .nav{
+            height: 120px;
+            width: 100%;
+            margin-top: 3px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 1px 2px 3px rgb(93, 92, 92);
+        }
+        section{
+            height: 90px;
+            width: 90px;
+            float: left;
+        }
+        img{
+            height: 70px;
+            width: 70px;
+            border-radius: 5px;
+        }
+        b{
+            color: black;
+            font-size: 15px;
+        }
+        
+        section{
+            text-decoration: none;
+            background-color: none;
+            display: flex;
+            justify-content: center;
+
+        }
+        .main{
+            height: 250px;
+            width: 100%;
+        }
+        #mainHome{
+            height: 250px;
+            width: 100%;
+        }
+        footer{
+            height: 200px;
+            width: 100%;
+            float: left;
+            justify-content: center;
+            display: block;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        footer img{
+            height: 150px;
+            width: auto;
+        }
+        .drop{
+            display: none;
+            position:absolute;
+            background-color: black;
+        }
+        div a{
+            display: block;
+
+        }
+        .eldrop{
+            display: inline-block;
+        }
+        .eldrop:hover > .drop{
+            background-color: aqua;
+            color: black;
+            border-radius: 5px;
+
+        }
+.dropdown{
+            display: inline-block;
+        }
+        /* Style the button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the list items */
+  .dropdown-content li {
+    list-style-type: none;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  /* Change color of links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown content when the button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the nested dropdown submenu */
+  .dropdown-submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    left: 100%;
+    top: 0;
+  }
+  
+  .dropdown-submenu:hover .dropdown-submenu-content {
+    display: block;
+  }
+  .seller a{
+    font-size: 20px;
+  }
